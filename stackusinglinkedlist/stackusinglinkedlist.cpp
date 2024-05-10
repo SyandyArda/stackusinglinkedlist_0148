@@ -82,3 +82,7 @@ int main() {
 			if (!stack.isEmpty()) {
 				stack.peek();
 			}
+			else {
+				cout << "Stack is empty. No top value." << endl;
+			}
+			break;
