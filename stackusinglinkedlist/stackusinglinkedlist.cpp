@@ -28,3 +28,7 @@ public:
 		cout << "push value: " << value << endl;
 		return value;
 	}
+	void peek() {
+		if (top == NULL) {
+			cout << "List is empty." << endl;
+		}
