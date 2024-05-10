@@ -69,3 +69,11 @@ int main() {
 			cin >> value;
 			stack.push(value);
 			break;
+		case 2:
+			if (!stack.isEmpty()) {
+				stack.Pop();
+			}
+			else {
+				cout << "Stack is empty. Cannot pop." << endl;
+			}
+			break;
